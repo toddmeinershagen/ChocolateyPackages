@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>pomodairo</id>
+    <title>Pomodairo</title>
+    <description>An Adobe Air application for working with the Pomodoro technique, http://www.pomodorotechnique.com.  Pomodairo includes the obligatory timer of course, but also includes a task list for the pomodoros. The application keeps track of pomodoros, unplanned and interruptions during the day.</description>
+    <version>1.0.0</version>
+    <authors>Fredrik Johansson, Viktor Nordling</authors>
+    <owners>Todd Meinershagen</owners>
+    <summary>Pomodairo is an Adobe Air application that allows you to practice the Pomodoro technique on any platform.</summary>
+    <projectUrl>https://code.google.com/p/pomodairo/</projectUrl>
+    <tags>pomodairo pomodoro</tags>
+    <copyright>2014</copyright>
+    <licenseUrl>https://code.google.com/p/pomodairo/source/browse/RELEASE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://code.google.com/p/pomodairo/logo?cct=1290729172</iconUrl>
+    <dependencies>
+      <dependency id="AdobeAIR" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
